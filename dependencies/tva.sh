@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Enable detailed logging
 exec > >(tee /var/log/eval.log|logger -t eval -s 2>/dev/console) 2>&1
 
